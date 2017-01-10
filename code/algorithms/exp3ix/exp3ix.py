@@ -12,7 +12,7 @@ def categorical_draw(probs):
 
   return len(probs) - 1
 
-class Exp3():
+class Exp3ix():
   def __init__(self, gamma, alpha, weights):
     self.gamma = gamma
     self.alpha = alpha
