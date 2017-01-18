@@ -43,3 +43,7 @@ class Exp3():
     
     growth_factor = math.exp((self.gamma / n_arms) * x)
     self.weights[chosen_arm] = self.weights[chosen_arm] * growth_factor
+
+  
+
+      

@@ -157,6 +157,9 @@ f = open('results.txt', 'a')
 f.write('%f,%f,%f,%f\n'%(variation/5000, variance(results[0]), variance(results[1]), mean(results[6])))  # python will convert \n to os.linesep
 f.close()
 
-                               
+print variation/5000
+print variance(results[0])
+print variance(results[1])
+print mean(results[6])                                    
 
 

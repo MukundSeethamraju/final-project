@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 from arms.adversarial import *
 from arms.bernoulli import *
 from arms.normal import *
-
+from arms.rewards import * 
 # Definitions of bandit algorithms
 
 from algorithms.exp3.exp3 import *
